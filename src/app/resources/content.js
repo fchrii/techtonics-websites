@@ -1,20 +1,20 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Techtonic",
+  lastName: "Class",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
+  role: "Organization",
+  avatar: "/images/avatar.png",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
   display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
+  title: <>Follow to {person.firstName}'s Newsletter</>,
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of
@@ -52,7 +52,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Websites`,
   description: `Techtonics website showcasing our activity as a ${person.role}`,
-  headline: <>Organization</>,
+  headline: <>Welcome Techtonicals</>,
   subline: (
     <>
       We're Techtonics, a part at <InlineCode>SMK Muhammadiyah 1 Ajibarang</InlineCode>, where we craft intuitive
