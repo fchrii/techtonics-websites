@@ -90,47 +90,43 @@ const about = {
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Our Expertise",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Cyber Security",
+        timeframe: "2024 - Present",
+        role: "Cyber security",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Network security LKS competition, with 3rd place in its first match.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "Cyber Security",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Atletik",
+        timeframe: "2024 - Present",
+        role: "",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            We have champions in athletics, winning the championship many times..
           </>,
         ],
-        images: [],
+        images: [
+          {src: "/images/gallery/atletik-1.jpg",
+          alt: "Atletik",
+          width: 16,
+          height: 9,
+        }  
+        ],
       },
     ],
   },
@@ -149,18 +145,12 @@ const about = {
     title: "Big Moment",
     skills: [
       {
-        title: "Gatau",
-        description: <>Gatau masih bingung.</>,
+        title: "Juara Atletik",
+        description: <>Juara pertama anak atletik dari Techtonic.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/atletik-1.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -168,12 +158,24 @@ const about = {
         ],
       },
       {
-        title: "Big Moment 2",
-        description: <>Ahh entahlahh.</>,
+        title: "Ramadhan 2024",
+        description: <>Foto bersama pada saat pesantren kilat.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/ramadhan-1.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/ramadhan-2.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/ramadhan-3.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -186,16 +188,16 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about our and activity",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
 
 const work = {
-  label: "Work",
-  title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
+  label: "Things",
+  title: "Things",
+  description: `Builded by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
