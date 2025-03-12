@@ -27,14 +27,14 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://instagram.com/setesa.smuhsa/",
   },
   {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    name: "TikTok",
+    icon: "tiktok",
+    link: "https://tiktok.com/@setesa.smuhsa/",
   },
   {
     name: "X",
@@ -44,19 +44,19 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:akunclasstjkt1@gmail.com",
   },
 ];
 
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  title: `${person.name}'s Websites`,
+  description: `Techtonics website showcasing our activity as a ${person.role}`,
+  headline: <>Organization</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      We're Techtonics, a part at <InlineCode>SMK Muhammadiyah 1 Ajibarang</InlineCode>, where we craft intuitive
+      <br /> tech experiences.
     </>
   ),
 };
@@ -74,16 +74,17 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Class XI TKJ 1 is a group of students in the Computer and Network Engineering (TKJ) major, focusing on computer networks, 
+        operating systems, and cybersecurity. They learn about network configuration, computer assembly, server management, 
+        and hardware/software maintenance. The class combines theory with hands-on practice to enhance technical skills. 
+        XI TKJ 1 is known for being active, creative, and highly motivated in developing expertise in information technology.
       </>
     ),
   },
