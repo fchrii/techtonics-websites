@@ -299,6 +299,31 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
+    {
+      src: "/images/gallery/cyber-1.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/cyber-2.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/cyber-4.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/cyber-5.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/cyber-6.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
   ],
 };
 
