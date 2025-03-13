@@ -146,7 +146,7 @@ const about = {
     skills: [
       {
         title: "Juara Atletik",
-        description: <>Juara pertama anak atletik dari Techtonic.</>,
+        description: <>Peraihan juara anak atletik dari Techtonic.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -204,7 +204,7 @@ const work = {
 
 const gallery = {
   label: "Gallery",
-  title: "My photo gallery",
+  title: "Techtonic Gallery",
   description: `A photo collection by ${person.name}`,
   // Images from https://pexels.com
   images: [
