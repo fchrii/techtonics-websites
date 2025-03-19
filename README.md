@@ -19,6 +19,6 @@ Kami percaya bahwa dengan kerja sama dan semangat inovasi, tidak ada batasan dal
 Jangan lupa untuk tetap terhubung dengan kami melalui platform berikut:  
 
 📸 **Instagram**: [Techtonics_official](https://www.instagram.com/setesa.smuhsa)  
-🌐 **Demo Website**: [Klik di sini](https://techtonics-demo.com)  
+🌐 **Demo Website**: [Klik di sini](https://ctf.techtonics.space/)  
 
 Terima kasih sudah berkunjung! Jangan lupa follow Instagram kami untuk update terbaru! 😍✨  
