@@ -2,13 +2,13 @@ import { InlineCode } from "@/once-ui/components";
 
 const person = {
   firstName: "Techtonic",
-  lastName: "Class",
+  lastName: "",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Organization",
+  role: "",
   avatar: "/images/avatar.png",
-   // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -46,6 +46,11 @@ const social = [
     icon: "email",
     link: "mailto:akunclasstjkt1@gmail.com",
   },
+  {
+    name: "CTF Techtonics",
+    icon: "flag",
+    link: "https://ctf.techtonics.space/"
+  }
 ];
 
 const home = {
@@ -104,7 +109,7 @@ const about = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/gallery/cyber-2.jpg",
             alt: "Cyber Security",
             width: 16,
             height: 9,
@@ -189,7 +194,7 @@ const about = {
 const blog = {
   label: "Blog",
   title: "Writing about our and activity",
-  description: `Read what ${person.name} has been up to recently`,
+  description: 'Read what ${person.name} has been up to recently',
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };

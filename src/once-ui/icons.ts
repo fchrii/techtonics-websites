@@ -34,6 +34,7 @@ import {
 } from "react-icons/pi";
 
 import { FaDiscord, FaGithub, FaLinkedin, FaXTwitter, FaTiktok, FaInstagram, } from "react-icons/fa6";
+import { FaFlag } from "react-icons/fa"
 
 export const iconLibrary: Record<string, IconType> = {
   chevronUp: HiChevronUp,
@@ -68,5 +69,6 @@ export const iconLibrary: Record<string, IconType> = {
   tiktok: FaTiktok,
   instagram: FaInstagram,
   clipboard: HiClipboard,
+  flag:FaFlag,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
 };
