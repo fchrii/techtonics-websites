@@ -37,11 +37,6 @@ const social = [
     link: "https://tiktok.com/@setesa.smuhsa/",
   },
   {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
-  {
     name: "Email",
     icon: "email",
     link: "mailto:akunclasstjkt1@gmail.com",
